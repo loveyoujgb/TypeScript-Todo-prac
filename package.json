@@ -1,0 +1,25 @@
+{
+  "name": "ts-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "sclipts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loveyoujgb/TypeScript-Todo-prac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loveyoujgb/TypeScript-Todo-prac/issues"
+  },
+  "homepage": "https://github.com/loveyoujgb/TypeScript-Todo-prac#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

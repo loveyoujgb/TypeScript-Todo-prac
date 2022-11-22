@@ -13,6 +13,9 @@
     /* Language and Environment */
     "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     // "lib": [],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    // 기본값 : "DOM"이 포함되어 있다. DOM API의 타입을 인지한다.
+    // 만약 target 버전을 하위버전으로 해야만 하고 2021버전의 메서드를 사용해야 한다면!?
+    // "ES2021"을 추가하면된다. ES2021의 lib를 사용하도록 하여 거기에 속해있는 메서드를 사용할 수 있다. 에러가 나지 않게 된다.
     // "jsx": "preserve",                                /* Specify what JSX code is generated. */
     // "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
     // "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. */
